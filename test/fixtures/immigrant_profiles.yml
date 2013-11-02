@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  destination_country_code: MyString
+  citizenship_country_code: MyString
+  postal_code: MyString
+  date_of_first_entry: 2013-11-02
+  exact_date_of_entry_known: false
+  recently_traveled_outside_destination_country: false
+  current_age: 1
+  documentation_type: MyString
+  documentation_expiry: 2013-11-02
+  visa_type: MyString
+  documentation_issuing_country_code: MyString
+  documentation_issuing_state: MyString
+  legal_status: MyString
+  legal_status_expiry: 2013-11-02
+
+two:
+  destination_country_code: MyString
+  citizenship_country_code: MyString
+  postal_code: MyString
+  date_of_first_entry: 2013-11-02
+  exact_date_of_entry_known: false
+  recently_traveled_outside_destination_country: false
+  current_age: 1
+  documentation_type: MyString
+  documentation_expiry: 2013-11-02
+  visa_type: MyString
+  documentation_issuing_country_code: MyString
+  documentation_issuing_state: MyString
+  legal_status: MyString
+  legal_status_expiry: 2013-11-02
