@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Immigration Guide</title>
+  <title>ImmiGuide</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -15,7 +15,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">My Immigration Guide</a>
+          <%= link_to "ImmiGuide", root_path, class: "navbar-brand"  %>
         </div>
         <div class="navbar-collapse collapse">
           <form class="navbar-form navbar-right">

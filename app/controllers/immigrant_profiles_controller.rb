@@ -1,0 +1,2 @@
+class ImmigrantProfilesController < ApplicationController
+end
