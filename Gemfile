@@ -7,8 +7,9 @@ gem 'bootstrap-sass', '~> 3.0.1.0.rc'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
-gem 'mysql2'
+group :development do
+  gem 'mysql2'
+end
 
 
 # Gems used only for assets and not required
